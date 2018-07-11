@@ -7,7 +7,7 @@ def least_coins(cents)
     :nickels =>0,
     :pennies =>0 
   }
-
+end
 #Code your answer here!
 number_quarters= (cents/25).round
 coins[:quarters]= number_quarters
@@ -21,8 +21,5 @@ left_over_cents= left_over_cents%5
 coins[:pennies]= left_over_cents
 
 coins
-
-
-
 
 end
