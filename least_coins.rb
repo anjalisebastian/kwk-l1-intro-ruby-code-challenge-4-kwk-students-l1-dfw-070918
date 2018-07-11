@@ -20,7 +20,7 @@ coins[:nickels]= number_nickels
 left_over_cents= left_over_cents%5
 coins[:pennies]= left_over_cents
 
-
+coins
 
 
 
