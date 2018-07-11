@@ -15,6 +15,7 @@ left_over_cents= cents- (number_quarters * 25)
 number_dimes = (left_over_cents/10).round
 coins[:dimes]= number_dimes
 left_over_cents=cents-(number_dimes * 10)
+number_nickels
 
 
 
