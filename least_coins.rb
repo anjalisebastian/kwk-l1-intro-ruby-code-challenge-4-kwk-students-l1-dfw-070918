@@ -1,13 +1,8 @@
 #write out your code here
 
 def least_coins(cents)
-  coins {
-    :quarters =>0,
-    :dimes =>0,
-    :nickels =>0,
-    :pennies =>0 
-  }
-end
+  coins = { }
+
 #Code your answer here!
 number_quarters= (cents/25).round
 coins[:quarters]= number_quarters
