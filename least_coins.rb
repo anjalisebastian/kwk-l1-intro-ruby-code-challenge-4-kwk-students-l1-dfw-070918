@@ -11,14 +11,14 @@ def least_coins(cents)
 #Code your answer here!
 number_quarters= (cents/25).round
 coins[:quarters]= number_quarters
-left_over_cents= cents- (number_quarters * 25)
+left_over_cents= cents%25
 number_dimes= (left_over_cents/10).round
 coins[:dimes]= number_dimes
-left_over_cents= cents-(number_dimes * 10)
-number_nickels= (cents/5).round
+left_over_cents= left_over_cents%10)
+number_nickels= (left_over_cents/5).round
 coins[:nickels]= number_nickels
-left_over_cents= cents- (number_nickels * 5)
-
+left_over_cents= left_over_cents%5)
+coins[:pennies]= left_over_cents
 
 
 
