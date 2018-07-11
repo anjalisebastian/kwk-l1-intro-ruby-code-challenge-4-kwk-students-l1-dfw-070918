@@ -7,7 +7,6 @@ def least_coins(43)
     :nickels =>1,
     :pennies =>3 
   }
-
 least_coins(43)
 #Code your answer here!
 
